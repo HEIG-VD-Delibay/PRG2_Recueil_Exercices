@@ -1,0 +1,23 @@
+exo Notion de boucles - while
+Écrire un programme en C qui demande à l'utilisateur de saisir des nombres jusqu'à ce qu'il saisisse 0. Après quoi, le programme affiche la somme des nombres saisis.
+
+check Simple chiffres
+see 
+Entrez des nombres pour additionner (0 pour terminer):
+type 2
+4
+5
+7
+1
+0
+see La somme des nombres est: 19
+
+check Nombres et cas limites
+type 6
+1
+6
+124
+024
+99
+0
+see La somme des nombres est: 260

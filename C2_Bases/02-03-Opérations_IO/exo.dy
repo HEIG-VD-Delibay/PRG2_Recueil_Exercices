@@ -3,7 +3,7 @@ exo Opérations I/O
 Écrivez un programme qui demande à l'utilisateur son prénom et son âge, 
 puis affiche un message de bienvenue avec ces informations.
 
-check Le message s'affiche une fois prénom puis agé entrés
+check Le message s'affiche une fois prénom puis âge entrés
 see Entrez votre prénom: 
 type Amélia
 see Entrez votre âge: 

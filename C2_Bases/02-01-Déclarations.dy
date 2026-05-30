@@ -1,0 +1,32 @@
+exo Déclarations de types et variables
+
+Effectuer les déclarations suivantes :
+
+subexo Une variable `c` permettant de stocker un octet non signé
+sol unsigned char c;
+
+subexo Un type nommé `signed_int` représentant un entier 32-bit signé
+sol
+- typedef int signed_int;
+- typedef signed int signed_int;
+// TODO: check la deuxième option
+
+// TODO: j'ai retiré la notion de programme principale, comme cela rend impossible de vérifier automatiquement le résultat.
+// Le programme donné n'affiche rien donc il n'est pas très utile de l'écrire, ni d'en faire un exo de code.
+// Chaque variable devient un sous exo
+// "Déclarez dans la fonction principale d'un programme C les variables nécessaires pour représenter les informations suivantes :"
+
+subexo L'âge d'une personne dans une variable `age`.
+sol int age;
+
+subexo La température actuelle en degrés Celsius dans une variable `temperature`.
+sol float temperature;
+
+subexo Le salaire mensuel d'un employé dans une variable `salary`.
+sol double salary;
+
+subexo La première lettre du prénom d'une personne dans une variable `firstInitial`.
+sol char firstInitial;
+
+subexo Le nombre d'étudiants dans une classe dans une variable `numberOfStudents`..
+sol int numberOfStudents;

@@ -1,0 +1,49 @@
+// Source: https://developpement-informatique.com/article/317/exercices-corriges-pour-maitriser-switch-case-java-c
+
+exo Structures de contrôle - switch - Jour de la semaine
+Écrivez un programme pour Saisir le numéro du jour dans une semaine (1-7) et affichez le nom du jour à l'aide de "switch" et "case". Le programme doit également signaler les erreurs dans les données d'entrée.
+
+check Jour valide
+see Saisir le numero de jour :
+type 1
+see Lundi
+
+check Jour valide
+see Saisir le numero de jour :
+type 2
+see Mardi
+
+check Jour valide
+see Saisir le numero de jour :
+type 3
+see Mercredi
+
+check Jour valide
+see Saisir le numero de jour :
+type 4
+see Jeudi
+
+check Jour valide
+see Saisir le numero de jour :
+type 5
+see Vendredi
+
+check Jour valide
+see Saisir le numero de jour :
+type 6
+see Samedi
+
+check Jour valide
+see Saisir le numero de jour :
+type 7
+see Dimanche
+
+check Jour invalide négatif
+see Saisir le numero de jour :
+type -23
+see Entree invalide! Veuillez saisir un chiffre entre 1 et 7.⏎             
+
+check Jour au delà de 7
+see Saisir le numero de jour :
+type 8
+see Entree invalide! Veuillez saisir un chiffre entre 1 et 7.⏎             

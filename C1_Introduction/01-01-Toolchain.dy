@@ -1,0 +1,21 @@
+exo Introduction au langage C
+
+subexo .open Toolchain
+Qu'est-ce une chaîne d'outil (ou *toolchain*) ? Que contient en général une *toolchain* ?
+
+exp
+Il s'agit de l'ensemble d'applications/utilitaires nécessaire à la compilation d'un programme et à la production d'une exécutable
+
+La *toolchain* contient le préprocesseur. le compilateur, l'assembleur (ou compilateur d'assemblage), l'éditeur de lien, un *debugger*, etc,
+
+subexo .open Compilateur
+Quel est le rôle du compilateur C (détaillez)
+
+exp 
+Le compilateur traduit le code source en langage machine. Il effectue d'abord une traduction vers le code assembleur puis vers l'assembleur traduit le code assembleur vers le code machine
+
+subexo .open Premier argument
+Quel est le premier argument reçu dans la fonction *main()* ?
+
+exp
+Il s'agit du premier élément (**oken*) récupéré au démarrage de l'application, i.e. le nom du fichier exécutable.

@@ -1,0 +1,38 @@
+// Source: https://developpement-informatique.com/article/317/exercices-corriges-pour-maitriser-switch-case-java-c
+exo Structures de contrôle - switch - Calculatrice
+Écrivez un programme pour créer une calculatrice qui exécute des opérations arithmétiques de base (additionn, soustration, multiplication et division) en utilisant "switch" et "case". Le programme doit également signaler les erreurs dans les données d'entrée.
+
+check Addition flottante
+see Saisir une operation [Num 1] [+ - * /] [Num 2]
+type 19.2+5.3
+see 19.20 + 5.30 = 24.50
+
+check Simple soustraction
+see Saisir une operation [Num 1] [+ - * /] [Num 2]
+type 7 - 2
+see 7.00 - 2.00 = 5.00
+
+check Multiplication
+see Saisir une operation [Num 1] [+ - * /] [Num 2]
+type 25 * 42.3
+see 25.00 * 42.30 = 1057.50⏎  
+
+check Division simple
+see Saisir une operation [Num 1] [+ - * /] [Num 2]
+type 19 / 23
+see 19.00 / 23.00 = 0.83
+
+check Division par zéro
+see Saisir une operation [Num 1] [+ - * /] [Num 2]
+type 34 / 0
+see 34.00 / 0.00 = inf
+
+check Données invalides
+see Saisir une operation [Num 1] [+ - * /] [Num 2]
+type 234 + yyyy
+see 234.00 + 0.00 = 234.00
+
+check Pas de calcul du tout
+see Saisir une operation [Num 1] [+ - * /] [Num 2]
+type oupsi
+see Operation mal formee ou inconnue!

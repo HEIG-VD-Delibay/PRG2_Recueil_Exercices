@@ -1,0 +1,25 @@
+exo Notion de boucles - for
+
+Que va afficher à l'exécution chacun des groupes d'instructions ci-dessous ?
+
+subexo
+```cpp
+//1
+int i;
+
+for (i = 0; i <= 5; i += 2) {
+    printf("%d ", i);
+}
+```
+
+sol 0 2 4
+
+subexo
+```cpp
+//2
+for (int i = 1; i != 16; i *= 2) {
+    printf("%d ", i);
+}
+```
+sol 1 2 4 8
+

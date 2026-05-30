@@ -1,0 +1,13 @@
+exo Structures de contrôle - if 2
+Écrivez un programme pour trouver un maximum entre trois nombres en utilisant une if-else ou if imbriquée.
+
+check Max de 17 12 16
+see Saisir 3 nombres: 
+type 17 12 16
+see Le maximum est : 17
+
+
+check Max de 45 195 1
+see Saisir 3 nombres: 
+type 45 195 1
+see Le maximum est : 195

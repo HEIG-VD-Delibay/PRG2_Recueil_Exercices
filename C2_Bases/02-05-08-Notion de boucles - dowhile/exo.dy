@@ -1,0 +1,17 @@
+exo Notion de boucles - do..while
+Écrire un programme qui demande à l'utilisateur de saisir son âge. Si l'âge est inférieur à 18, le programme demande à nouveau l'âge. Ce processus continue jusqu'à ce que l'utilisateur saisisse un âge valide (18 ou plus), après quoi le programme imprime "Accès accordé".
+
+check Output correct
+see Entrez votre âge:
+type 14
+see Entrez votre âge:
+type 17
+see Entrez votre âge:
+type 8
+see Entrez votre âge:
+type 17
+see Entrez votre âge:
+type 10
+see Entrez votre âge:
+type 42
+see Accès accordé.

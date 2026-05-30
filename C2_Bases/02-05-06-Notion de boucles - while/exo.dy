@@ -1,0 +1,12 @@
+exo Notion de boucles - while
+Écrire un programme qui utilise une boucle while pour déterminer et afficher le plus grand nombre d'une série de nombres saisis par l'utilisateur. L'utilisateur saisit des nombres jusqu'à ce qu'il saisisse -1.
+
+check Output correct
+see Entrez des nombres pour trouver le maximum (-1 pour terminer):
+type 27
+42
+1
+35
+7
+-1
+see Le plus grand nombre est: 42

@@ -1,0 +1,12 @@
+exo Notion de boucles - do..while
+Écrire un programme en C qui utilise une boucle do..while pour inverser les chiffres d'un nombre entier saisi par l'utilisateur. Par exemple, si l'utilisateur saisit 123, le programme affiche 321.
+
+check Nombre pair de chiffres
+see Entrez un nombre pour inverser ses chiffres:
+type 42987123
+see Le nombre inversé est: 32178924
+
+check Nombre impair de chiffres
+see Entrez un nombre pour inverser ses chiffres:
+type 619
+see Le nombre inversé est: 916

@@ -1,0 +1,7 @@
+exo Structures de contrôle - if
+Écrivez un programme pour vérifier si un nombre est divisible par 3 et 13 ou non, en utilisant if-else.
+
+check Output correct
+see Saisir un nombre: 
+type 117
+see 117 est divisible par 3 et 13

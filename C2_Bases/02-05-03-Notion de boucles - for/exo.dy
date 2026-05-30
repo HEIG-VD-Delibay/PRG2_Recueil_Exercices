@@ -1,0 +1,5 @@
+exo Notion de boucles - for
+Écrire un programme en ``C`` qui utilise une boucle ``for`` pour calculer la somme des 100 premiers nombres naturels ``(1+2+3+4+...+100)``.
+
+check Somme correcte
+see La somme est: 5050
