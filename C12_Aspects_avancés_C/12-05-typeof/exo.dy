@@ -1,0 +1,11 @@
+exo Utilisation de typeof
+
+Écrivez un programme en C qui définit une macro ``calculate_average()`` pour calculer la moyenne de plusieurs tableaux de différents types. 
+
+Vous devez ensuite créer au moins trois tableaux de types différents (par exemple, ``int``, ``float``, et ``double``) et chaque tableau doit contenir **au moins 5 éléments**.
+
+check
+see
+Moyenne du tableau d'entiers : 13
+Moyenne du tableau de flottants : 2.314000
+Moyenne du tableau de doubles : 4.621180

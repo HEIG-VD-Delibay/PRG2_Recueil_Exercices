@@ -1,0 +1,11 @@
+// TODO: complément de show_value okay ?
+exo Utilisation de _Generic
+
+Ecrivez une fonction qui initialise une structure de données *polymorphique* nommée Value. 
+Cette structure peut stocker des valeurs de différents types : ``entiers``, ``flottants`` et ``chaînes de caractères``. 
+
+check
+see
+La valeur est: 10
+La valeur est: 3.140000
+La valeur est: Hello, world!

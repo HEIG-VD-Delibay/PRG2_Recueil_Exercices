@@ -1,0 +1,40 @@
+exo Champs de bits
+
+## Etape 1
+Écrivez une structure appelée ``Packet`` qui représente un paquet de données réseau avec les champs suivants :
+
+- Un champ pour le numéro de séquence, sur 16 bits.
+- Un champ pour le type de paquet, sur 4 bits.
+- Un champ pour le statut du paquet, sur 2 bits.
+- Un champ pour la longueur des données, sur 10 bits.
+
+## Etape 2
+Ecrivez des fonctions pour :
+
+- Initialiser une variable de type Packet avec les valeurs données pour chaque champ.
+- Afficher les informations d'un paquet (numéro de séquence, type, statut, longueur des données).
+- Modifier le type d'un paquet donné.
+- Modifier le statut d'un paquet donné.
+- Calculer la taille en octets d'un paquet, en tenant compte de la taille des champs spécifiés.
+
+check
+see
+Informations du paquet initial :
+Numéro de séquence : 1234
+Type de paquet : 3
+Statut du paquet : 1
+Longueur des données : 512
+
+Type modifié :
+Numéro de séquence : 1234
+Type de paquet : 2
+Statut du paquet : 1
+Longueur des données : 512
+
+Statut modifié :
+Numéro de séquence : 1234
+Type de paquet : 2
+Statut du paquet : 0
+Longueur des données : 512
+
+Taille du paquet : 4 octets

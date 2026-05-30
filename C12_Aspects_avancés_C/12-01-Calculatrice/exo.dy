@@ -1,0 +1,70 @@
+exo Calculatrice
+
+On se propose d'écrire un programme qui utilise un tableau de pointeurs de fonctions pour mapper différentes opérations arithmétiques en fonction de l'entrée de l'utilisateur.
+
+a) Déclarez un tableau de pointeurs de fonctions qui peut pointer vers les fonctions définies dans le code donné.
+
+b) Implémente un programme principal qui permet à l'utilisateur de choisir une opération et de saisir deux nombres. Utilise le tableau de pointeurs de fonctions pour appeler la fonction appropriée.
+
+check Addition
+see
+Choisissez une opération :
+0. Addition
+1. Soustraction
+2. Multiplication
+3. Division
+Votre choix :
+type 0
+see Entrez deux nombres :
+type 1 23
+see Le résultat est : 24
+
+check Soustraction
+see
+Choisissez une opération :
+0. Addition
+1. Soustraction
+2. Multiplication
+3. Division
+Votre choix :
+type 1
+see Entrez deux nombres :
+type 5 12
+see Le résultat est : -7
+
+check Multiplication
+see
+Choisissez une opération :
+0. Addition
+1. Soustraction
+2. Multiplication
+3. Division
+Votre choix :
+type 2
+see Entrez deux nombres :
+type 5 19
+see Le résultat est : 95
+
+check Division
+see
+Choisissez une opération :
+0. Addition
+1. Soustraction
+2. Multiplication
+3. Division
+Votre choix :
+type 3
+see Entrez deux nombres :
+type 18 3
+see Le résultat est : 6
+
+check Choix invalide
+see
+Choisissez une opération :
+0. Addition
+1. Soustraction
+2. Multiplication
+3. Division
+Votre choix :
+type 5
+see Choix invalide
