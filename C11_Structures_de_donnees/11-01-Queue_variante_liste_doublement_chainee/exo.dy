@@ -1,0 +1,9 @@
+exo Listes FIFO - variante doublement chainée
+Modifiez de diverses manières la solution de l'exercice précédent pour qu'elle utilise **une liste doublement chainée**.
+
+Note: pas de solution fournie...
+
+check Output correct
+see
+0 1 4 9 16
+5 elements remain in queue, from 25 to 81.
