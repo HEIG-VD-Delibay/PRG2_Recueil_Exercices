@@ -1,0 +1,17 @@
+Extract of "man cmake"
+
+---
+
+DESCRIPTION
+The cmake executable is the command-line interface of the cross-platform buildsystem generator CMake.  The above Synopsis lists various actions the tool can perform
+as described in sections below.
+
+To  build  a  software project with CMake, Generate a Project Buildsystem.  Optionally use cmake to Build a Project, Install a Project or just run the corresponding
+build tool (e.g. make) directly.  cmake can also be used to View Help.
+
+The other actions are meant for use by software developers writing scripts in the CMake language to support their builds.
+
+For graphical user interfaces that may be used in place of cmake, see ccmake and cmake-gui.  For command-line interfaces to the CMake testing and packaging  facili‐
+ties, see ctest and cpack.
+
+For more information on CMake at large, see also the links at the end of this manual.

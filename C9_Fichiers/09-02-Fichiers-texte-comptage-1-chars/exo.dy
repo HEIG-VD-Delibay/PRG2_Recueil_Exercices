@@ -1,0 +1,19 @@
+exo Fichiers texte - Comptage de caractères
+// Source: https://cedric.cnam.fr/~lamberta/enseignements/C/corrections/07/correction_tp7.pdf
+
+Complète le programme donné pour compter les caractères dans un fichier texte:
+- écrire la fonction *countc()* qui renvoie le nombre de caractères contenus dans le flux de texte passé en argument à la fonction,
+- ouvrir le fichier texte passé en argument à la commande.
+
+check Fichier à propos de GCC
+args gcc.md
+see gcc.md contains 583 characters
+
+check Fichier à propos de CMake
+args cmake.txt
+see cmake.txt contains 880 characters
+
+check Fichier inexistant
+args doesntexist.txt
+see [e] could not open doesntexist.txt
+exit 1

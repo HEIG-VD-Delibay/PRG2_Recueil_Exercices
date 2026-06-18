@@ -1,0 +1,20 @@
+exo Fichiers texte - Comptage de mots
+// Source: https://cedric.cnam.fr/~lamberta/enseignements/C/corrections/07/correction_tp7.pdf
+
+Complète le programme basé sur la partie précédente, pour compter également le nombre de mots.
+- écrire une fonction *countm()* qui renvoie le nombre de mots dans le flux passé en argument de la fonction,
+- le fichier texte passé en argument à la commande doit être remis au début.
+
+NB: Les mots sont séparés par des espaces ou des retours à la ligne.
+
+check Fichier à propos de GCC
+args gcc.md
+see
+gcc.md contains 583 characters
+gcc.md contains 97 words
+
+check Fichier à propos de CMake
+args cmake.txt
+see
+cmake.txt contains 880 characters
+cmake.txt contains 141 words
