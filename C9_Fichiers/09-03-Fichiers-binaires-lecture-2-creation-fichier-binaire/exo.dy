@@ -1,0 +1,33 @@
+exo Fichiers binaires - Création fichier binaire
+// Source: https://enit.rnu.tn/fr/Minds/informatique/TD5%20avec%20corrig%C3%A9.pdf
+
+Compléter le programme donné de l'exercice précédent pour qu'il importe le contenu lu dans des enregistrements en mémoire puis sauvegarde ces derniers dans un fichier binaire qui fera office de base de données.
+
+Le contenu est chargé en mémoire dans un tableau de structures `stockItem` définies ainsi:
+
+~~~cpp
+struct stockItem {
+    char brand[MAXLEN];
+    char item[MAXLEN];
+    int qty;
+    float unit, total;
+};
+~~~
+
+Le fichier binaire produit contient tous les enregistrements présents en mémoire ainsi que le nombre de ces enregistrements au début du fichier.
+
+check Output correct
+// TODO: on voudrait checker que le fichier stock.bin a bien été généré ! et peut-être le supprimer avant ? et gitignore le résultat ?
+args stock.txt stock.bin
+see 
+importing Federer,raquette,999.90,10,9999.00
+importing Odermatt,skis,567.50,20,11350.00
+// TODO: afficher qqch qui montre que le fichier stock.bin est bien créé, pour ne pas avoir le check qui passe immédiatement ?
+
+// TODO: activer ceci quand ./build/main.sol peut être remplacé par un chemin cross-plateforme et stable
+// check Un argument manquant
+// args stock.txt
+// see Usage: ./build/main.sol importfile dbfile
+// 
+// check Deux arguments manquants
+// see Usage: ./build/main.sol importfile dbfile

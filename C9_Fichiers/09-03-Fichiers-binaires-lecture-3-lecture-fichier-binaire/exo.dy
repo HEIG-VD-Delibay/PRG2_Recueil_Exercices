@@ -1,0 +1,13 @@
+exo Fichiers binaires - Lecture fichier binaire
+// Source: https://enit.rnu.tn/fr/Minds/informatique/TD5%20avec%20corrig%C3%A9.pdf
+
+Ecrivez le programme qui importe le fichier binaire produit lors de l'exercice précédent en mémoire puis affiche le contenu donné dans le check.
+
+NB: Le fichier binaire est chargé en mémoire dans un tableau de structures `stockItem` comme défini dans l'exercice précédent.
+
+check Output correct
+args stock.bin
+see
+[i] The stock contains 2 products:
+[i] - row 0: [Federer],[raquette],[999.90],[10],[9999.00]
+[i] - row 1: [Odermatt],[skis],[567.50],[20],[11350.00]

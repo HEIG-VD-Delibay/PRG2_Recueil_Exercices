@@ -1,0 +1,22 @@
+exo Fichiers binaires - Lecture fichier texte
+// Source: https://enit.rnu.tn/fr/Minds/informatique/TD5%20avec%20corrig%C3%A9.pdf
+
+Soit un fichier de données structuré en une suite de lignes contenant chacune un nom de marque, une désignation d’article, un nombre d'articles en stock, un prix unitaire et un prix pour l'ensemble.
+
+Exemple *stock.txt* :
+```
+Federer raquette 999.90 10 9999
+Odermatt skis 567.50 20 11350
+```
+
+Ecrire un programme qui accepte un nom de fichier texte en argument et qui lit ce fichier ligne par ligne pour en extraire le contenu. Le contenu lu est affiché ligne par ligne, chaque élément séparé par des virgules, et les prix affichés au centime.
+
+check Contenu du fichier extrait et affiché
+args stock.txt
+see
+reading Federer,raquette,999.90,10,9999.00
+reading Odermatt,skis,567.50,20,11350.00
+
+// TODO: activer ceci quand ./build/main.sol peut être remplacé par un chemin cross-plateforme et stable
+// check Un argument manquant
+// see Usage: ./build/main file
